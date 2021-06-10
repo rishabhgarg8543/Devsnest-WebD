@@ -1,0 +1,29 @@
+*{
+    color: brown;
+}
+/* body{
+border-top: 2px solid blue;
+border-right: 2px solid blue;
+} */
+#name{
+    text-align: center;
+}
+#left{
+    float: left;
+    border-left: 2px solid blue;
+    border-top: 2px solid blue;
+    width: 40%;
+}
+#textleft{
+    margin-left: 10%;
+}
+#textright{
+    margin-right: 30px;
+}
+#right{
+    width: 40%;
+    float: right;
+    
+    border-right: 2px solid blue;
+    border-top: 2px solid blue;
+}
