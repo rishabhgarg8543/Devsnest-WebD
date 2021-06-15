@@ -1,0 +1,38 @@
+body{
+    color: greenyellow;
+    background: gray;
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+    font-size: 40px;
+}
+h3{
+    text-decoration: underline;
+    font-size: 25px;
+}
+#input1,#input2,#ans{
+    font-size: 26px;
+    text-align: center;
+}
+#calc{
+    height: 590px; 
+    width: 590px;
+    background: radial-gradient(white,rgb(255, 244, 145));
+    border: 10px solid blue;
+    display: inline-block;
+    border-radius: 10%;
+    /* border: 50px solid red; */
+     /* padding: 50px;  */
+}
+button{
+    /* padding: 5px; */
+    font-size: 20px;
+}
+#ans{
+    color: red;
+    text-decoration: underline;
+}
+#buttons{
+    padding: 20px;
+}
