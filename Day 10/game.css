@@ -3,8 +3,12 @@ body{
     border: 10px dashed brown;
     color: brown;
 }
-h1{
+h1,p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: x-large;
+    color: rgb(73 87 230);
 }
 #game{
     text-align: center;
@@ -18,9 +22,9 @@ img{
     padding-inline: 20px ;
 }
 #part1{
-    padding-top: 20px;
+    padding-top: 0px;
 }
 #part2{
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 27px;
 }
