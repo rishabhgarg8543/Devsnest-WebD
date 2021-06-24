@@ -34,8 +34,8 @@ function c(classname)
     {
         if(check!=checkp)
         {
-            setTimeout(()=>first.src="img/img 6.jpg",1000);
-            setTimeout(()=>second.src="img/img 6.jpg",1000);
+            setTimeout(()=>first.src="img/img 6.jpg",500);
+            setTimeout(()=>second.src="img/img 6.jpg",500);
             first.style.pointerEvents = 'auto';
             second.style.pointerEvents = 'auto';
         }
