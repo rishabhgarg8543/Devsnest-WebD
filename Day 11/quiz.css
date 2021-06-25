@@ -1,0 +1,49 @@
+*{
+    text-align: center;
+    color: white;
+}
+.full{
+    height: 2000px;
+}
+
+body, html {
+
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+   
+
+  }
+
+.rules{
+    border: 2px solid red;
+    text-align: left;
+    
+    width: 300px;
+}
+
+.head{
+    font-size: 50px;
+    color: #a3ee94;;
+    text-decoration: underline;
+    
+}
+.ques{
+    background: radial-gradient(transparent,rgb(82, 80, 80));
+    border: 15px solid white;
+    width: 1028px;
+    border-radius: 19px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -6px;
+    font-size: 25px;
+    height: 1754px;
+    
+}
+.q{
+    color: #ffc21f;
+}
+/* p{
+    border: 2px solid red;
+} */
