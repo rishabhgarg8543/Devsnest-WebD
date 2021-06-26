@@ -4,93 +4,102 @@ var ele1,ele2,ele3,ele4,ele5;
 function fun(idNo){
     var x=document.getElementById(idNo);
     
-    var z=idNo;
-    console.log(z);
+    var y=idNo;
+    var z=parseInt(y);
+    console.log(z+1);
     if(idNo>=1&&idNo<=4)
     {
         ans1=idNo;
         ele1=x;
-        for(var i=1;i<=4;i++)
+        document.getElementById(z).style.color="blue";
+        document.getElementById(z).style.borderColor="blue";
+        for(var i=z+1;i<=4;i++)
         {
-            if(i==z)
-            {
-                document.getElementById(i).style.color="blue";
-                document.getElementById(i).style.borderColor="blue";
-                break;
-            }
-            else{
-                document.getElementById(i).style.color="white";
-                document.getElementById(i).style.borderColor="white";
-            }
+            console.log("sjhdoi");
+            document.getElementById(i).style.color="white";
+            document.getElementById(i).style.borderColor="white";
+        }
+        for(var j=1;j<z;j++)
+        {
+            console.log("sjhdoi");
+            document.getElementById(j).style.color="white";
+            document.getElementById(j).style.borderColor="white";
         }
     }
     else if(idNo>=5&&idNo<=8)
     {
         ans2=idNo;
         ele2=x;
-        for(var i=5;i<=8;i++)
+        document.getElementById(z).style.color="blue";
+        document.getElementById(z).style.borderColor="blue";
+        for(var i=z+1;i<=8;i++)
         {
-            if(i==z)
-            {
-                document.getElementById(i).style.color="blue";
-                x.style.borderColor="blue";
-                break;
-            }
-            else{
-                document.getElementById(i).style.color="white";
-                document.getElementById(i).style.borderColor="white";
-            }
+            console.log("sjhdoi");
+            document.getElementById(i).style.color="white";
+            document.getElementById(i).style.borderColor="white";
+        }
+        for(var j=5;j<z;j++)
+        {
+            console.log("sjhdoi");
+            document.getElementById(j).style.color="white";
+            document.getElementById(j).style.borderColor="white";
         }
     }
     else if(idNo>=9&&idNo<=12)
     {
         ans3=idNo;
         ele3=x;
-        for(var i=9;i<=12;i++)
+        document.getElementById(z).style.color="blue";
+        document.getElementById(z).style.borderColor="blue";
+        for(var i=z+1;i<=12;i++)
         {
-            if(i==z)
-            {
-                document.getElementById(i).style.color="blue";
-                document.getElementById(i).style.borderColor="blue";
-            }
-            else{
-                document.getElementById(i).style.color="white";
-                document.getElementById(i).style.borderColor="white";
-            }
+            console.log("sjhdoi");
+            document.getElementById(i).style.color="white";
+            document.getElementById(i).style.borderColor="white";
+        }
+        for(var j=9;j<z;j++)
+        {
+            console.log("sjhdoi");
+            document.getElementById(j).style.color="white";
+            document.getElementById(j).style.borderColor="white";
         }
     }
     else if(idNo>=13&&idNo<=16)
     {
         ans4=idNo;
         ele4=x;
-        for(var i=12;i<=16;i++)
+        document.getElementById(z).style.color="blue";
+        document.getElementById(z).style.borderColor="blue";
+        for(var i=z+1;i<=16;i++)
         {
-            if(i==z)
-            {
-                document.getElementById(i).style.color="blue";
-                x.style.borderColor="blue";
-            }
-            else{
-                document.getElementById(i).style.color="white";
-                document.getElementById(i).style.borderColor="white";
-            }
+            console.log("sjhdoi");
+            document.getElementById(i).style.color="white";
+            document.getElementById(i).style.borderColor="white";
+        }
+        for(var j=13;j<z;j++)
+        {
+            console.log("sjhdoi");
+            document.getElementById(j).style.color="white";
+            document.getElementById(j).style.borderColor="white";
         }
     } 
     else if(idNo>=17&&idNo<=20)
     {
         ans5=idNo;
         ele5=x;
-        for(var i=17;i<=20;i++)
+        document.getElementById(z).style.color="blue";
+        document.getElementById(z).style.borderColor="blue";
+        for(var i=z+1;i<=20;i++)
         {
-            if(i==z)
-            {
-                document.getElementById(i).style.color="blue";
-                document.getElementById(i).style.borderColor="blue";
-            }
-            else{
-                document.getElementById(i).style.color="white";
-                document.getElementById(i).style.borderColor="white";
-            }
+            console.log("sjhdoi");
+            document.getElementById(i).style.color="white";
+            document.getElementById(i).style.borderColor="white";
+        }
+        for(var j=17;j<z;j++)
+        {
+            console.log("sjhdoi");
+            document.getElementById(j).style.color="white";
+            document.getElementById(j).style.borderColor="white";
         }
     }
 }   
@@ -148,6 +157,19 @@ function submit(){
         ele5.style.color="red";
         ele5.style.borderColor="red";
     }
+    
+
+    document.getElementById(3).style.color="#43fc03";
+    document.getElementById(3).style.borderColor="#43fc03";
+    document.getElementById(8).style.color="#43fc03";
+    document.getElementById(8).style.borderColor="#43fc03";
+    document.getElementById(11).style.color="#43fc03";
+    document.getElementById(11).style.borderColor="#43fc03";
+    document.getElementById(16).style.color="#43fc03";
+    document.getElementById(16).style.borderColor="#43fc03";
+    document.getElementById(18).style.color="#43fc03";
+    document.getElementById(18).style.borderColor="#43fc03";
+        
     document.getElementById("score").innerHTML=count;
     console.log(count);
 }
