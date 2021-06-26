@@ -18,44 +18,49 @@
             3- Each question har 4 options.<br>
         </div><br>
         <div class="ques">
-        <div class="ques1">
-            <br><b class="q"> Q 1 - push() and pop() functions are found in </b><br><br>
-            <p>A - queues</p>
-            <p>B - lists</p>
-            <p>C - stacks</p>
-            <p>D - trees</p>
+            <div class="ques1">
+                <br><b class="q"> Q 1 - push() and pop() functions are found in </b><br><br>
+                <p id="1" onclick="fun(this.id)">A - queues</p>
+                <p id="2" onclick="fun(this.id)">B - lists</p>
+                <p id="3" onclick="fun(this.id)">C - stacks</p>
+                <p id="4" onclick="fun(this.id)">D - trees</p>
+            </div>
+            <hr color="white">
+            <div class="ques2">
+                <br><b class="q">Q 2 - Which of the following is an example of dynamic programming approach?</b><br><br>
+                <p id="5" onclick="fun(this.id)">A - Fibonacci Series</p>
+                <p id="6" onclick="fun(this.id)">B - Tower of Hanoi</p>
+                <p id="7" onclick="fun(this.id)">C - Dijkstra Shortest Path</p>
+                <p id="8" onclick="fun(this.id)">D - All of the above</p>
+            </div><hr color="white"> 
+            <div class="ques3">
+                <br><b class="q">Q 3 - Minimum number of spanning tree in a connected graph is</b><br><br>
+                <p id="9" onclick="fun(this.id)">A - n</p>
+                <p id="10" onclick="fun(this.id)">B - n^n - 1</p>
+                <p id="11" onclick="fun(this.id)">C - 1</p>
+                <p id="12" onclick="fun(this.id)">D - 0</p>
+            </div><hr color="white">
+            <div class="ques4">
+                <br><b class="q">Q 4 - Access time of a binary search tree may go worse in terms of time complexity upto</b><br><br>
+                <p id="13" onclick="fun(this.id)">A - Ο(n^2)</p>
+                <p id="14" onclick="fun(this.id)">B - Ο(1)</p>
+                <p id="15" onclick="fun(this.id)">C - Ο(n log n)</p>
+                <p id="16" onclick="fun(this.id)">D - Ο(n)</p>
+            </div><hr color="white">
+            <div class="ques5">
+                <br><b class="q">Q 5 - The worst case complexity of binary search matches with −</b><br><br>
+                <p id="17" onclick="fun(this.id)">A - interpolation search</p>
+                <p id="18" onclick="fun(this.id)">B - linear search</p>
+                <p id="19" onclick="fun(this.id)">C - merge sort</p>
+                <p id="20" onclick="fun(this.id)">D - none of the above</p><br>
+            </div>
         </div>
-        <hr color="red">
-        <div class="ques2">
-            <br><b class="q">Q 2 - Which of the following is an example of dynamic programming approach?</b><br><br>
-            <p>A - Fibonacci Series</p>
-            <p>B - Tower of Hanoi</p>
-            <p>C - Dijkstra Shortest Path</p>
-            <p>D - All of the above</p><br>
-        </div><hr color="red"> 
-        <div class="ques3">
-            <br><b class="q">Q 3 - Minimum number of spanning tree in a connected graph is</b><br><br>
-            <p>A - n</p>
-            <p>B - n^n - 1</p>
-            <p>C - 1</p>
-            <p>D - 0</p>
-        </div><hr color="red">
-        <div class="ques4">
-            <br><b class="q">Q 4 - Access time of a binary search tree may go worse in terms of time complexity upto</b><br><br>
-            <p>A - Ο(n^2)</p>
-            <p>B - Ο(1)</p>
-            <p>C - Ο(n log n)</p>
-            <p>D - Ο(n)</p>
-        </div><hr color="red">
-        <div class="ques5">
-            <br><b class="q">Q 5 - The worst case complexity of binary search matches with −</b><br><br>
-            <p>A - interpolation search</p>
-            <p>B - linear search</p>
-            <p>C - merge sort</p>
-            <p>D - none of the above</p><br>
-        </div>
+        <div>
+    <span><button id="btn" onclick="submit()">SUBMIT</button></span>
     </div>
     </div>
+    <span><em style="color: white;">TOTAL SCORE</em></span>
+    <span> <strong id="score"></strong></span>
 
    
     

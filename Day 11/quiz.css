@@ -3,22 +3,28 @@
     color: white;
 }
 .full{
-    height: 2000px;
+    height: 2057px;
 }
-
 body, html {
-
     background-image: url("img.jpg");
+    /* background-size: 100%; */
     background-repeat: no-repeat;
     background-position: top;
-   
-
   }
+p{
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 23px auto;
+    width: 245px;
+    text-align: left;
+    padding-left: 17px;
 
+}
 .rules{
     border: 2px solid red;
     text-align: left;
-    
+    position: relative;
     width: 300px;
 }
 
@@ -41,9 +47,26 @@ body, html {
     height: 1754px;
     
 }
+
 .q{
     color: #ffc21f;
 }
-/* p{
-    border: 2px solid red;
-} */
+#btn{
+    color: red;
+    font-size: xx-large;
+    background-color: #ffc21f;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+}
+em{
+    border: 2px solid wheat;
+    padding: 5px;
+    font-size: 17px;
+}
+strong{
+    color: red;
+    height: 21px;
+    font-size: 21px;
+    margin-left: 50px;
+}
