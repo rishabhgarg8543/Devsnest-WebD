@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: wheat;
+}
+#app{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#containor{
+    width: 50%;
+    background-color: burlywood;
+}
+.fa-plus{
+    float: right;
+}
+h1{
+    background-color: brown;
+    padding: 10px 10px;
+    color: white;
+}
+#input{
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #ffff;
+    box-sizing: border-box;
+   
+}
+#input:focus{
+    outline: none;
+    border: 2px solid brown;
+}
+li{
+    list-style: none;
+    padding: 10px 10px;
+}
+span{
+    background-color: red;
+    padding: 10px;
+    display: none;
+    margin-right: 10px;
+}
+.fa-trash{
+    color: white;
+}
+li:hover span{
+    display: inline;
+}
+li:hover{
+    padding: 10px 0px;
+}
+.completed{
+    text-decoration: line-through;
+}
