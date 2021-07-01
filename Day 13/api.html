@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19 data</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <div id="container">
+    <h1>COVID 19 LIVE DATA TRACKER</h1>
+    <br><br>
+    <table>
+        <div>
+        <thead>
+        <tr>
+          <th>Total Cases</th>
+          <th>Total Deaths</th>
+          <th>Total Recovered</th>
+        </tr>
+   
+    </thead>
+</div>
+    <div>
+    <tbody>
+        <tr id="data"> 
+          
+        </tr>
+    </tbody>
+</div>
+      </table>
+      <br><br>
+      <div class="btn">
+      <p id="btn" onclick="refreshData()">REFRESH DATA</p>
+    </div>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
