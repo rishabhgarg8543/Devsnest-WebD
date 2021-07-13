@@ -1,0 +1,33 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.Chess{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    border: 20px solid brown;
+    background-color: burlywood;5
+}
+.card{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.wcard{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+.Line1{
+    /* width:50%; */
+    display: inline-block;
+}
+.Ch{
+    height: 420px;
+    width: 420px;
+    border: 10px solid black;
+    margin: auto;
+}
