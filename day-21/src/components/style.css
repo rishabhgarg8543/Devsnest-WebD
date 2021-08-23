@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main-footer {
+  color: white;
+  background-color: #11131b;
+  padding-top: 1em;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  font-family: sans-serif;
+}
+.row {
+  display: flex;
+  padding: 1em;
+}
+
+.col {
+  display: inline-block;
+  width: 25%;
+  padding: 1em;
+}
+
+.col-sm {
+  text-align: center;
+  padding: 0.5em 0 0.5em 0;
+}
+h3 {
+  padding: 0.75em 0 0.75em 0;
+  color: #fcdec0;
+}
+
+.footer-links {
+  color: #ddd;
+}
+
+.footer-links:hover {
+  text-decoration: underline rgb(83, 82, 82) solid;
+  color: #766161;
+}
