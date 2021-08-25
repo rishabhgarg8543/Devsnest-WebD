@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: rgb(83, 80, 80);
+    color: white;
+}
+nav ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 2px solid black;
+    background: rgb(29, 18, 29);
+    text-align: center;
+}
+a{
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+    background: rgb(29, 18, 29);
+}
+li{
+    background: rgb(29, 18, 29);
+    margin: 10px;
+    list-style: none;
+    font-size: x-large;
+}
+button{
+    background: rgb(29, 18, 29);
+    padding: 10px;
+    margin-top: 15px;
+}
+.mid{
+    /* border: 2px solid white; */
+    padding: 30px;
+}
